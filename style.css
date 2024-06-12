@@ -56,3 +56,112 @@ body{
   border-radius: 5px;
   font-weight:700;
 }
+
+
+/* fail section style */
+
+
+.fail-section{
+    display: flex;
+    gap: 50px;
+    max-width: 1300px;
+    margin: 200px auto;
+    align-items: center;
+}
+.failed-girl-img{
+    width: 100%;
+}
+.fail-title{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.fail-description{
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.fail-list{
+    margin-top: 20px;
+}
+.fail-list li{
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.fail-list li:before{
+    /* content: '✓'; */
+    content: "\2714\0020";
+    color: green;
+    
+}
+p{
+    text-wrap: balance;
+    font-size: 20px;
+}
+
+
+/* plan style */
+
+
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+#my-plan{
+    max-width: 1300px;
+    margin: 200px auto;
+}
+.plan-box-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-box{
+    text-align: center;
+    padding: 50px;
+}
+
+.plan-description{
+    margin-top:15px;
+    font-weight: 600;
+    color: rgb(81, 81, 81);
+}
+
+/* cta style */
+
+.cta{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    background-image:url(images/gradient1.png),url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.cta-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.cta-content button{
+    margin-top: 30px;
+  background-color: #ffffff;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight:700;
+}
+
+/* cta style end */
